@@ -4,6 +4,7 @@ let temp = parseFloat(prompt("Temperatura:"));
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 if( CF.toUpperCase() == "F" ){
 =======
 if( CF.toUpperCase() == "C" ){
@@ -17,6 +18,9 @@ console.log(`${temp}C -> ${fh}F`);
 console.log("Només es pot C ó F");
 =======
 if( CF.toUpperCase() == "C" ){
+=======
+if( CF.toUpperCase() == "B" ){
+>>>>>>> 58276ef (modificada una lletra)
 =======
 if( CF.toUpperCase() == "B" ){
 >>>>>>> 58276ef (modificada una lletra)
