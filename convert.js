@@ -2,6 +2,7 @@ function convertirCF() {
 let CF = prompt("A què vols convertir C/F?");
 let temp = parseFloat(prompt("Temperatura:"));
 <<<<<<< HEAD
+<<<<<<< HEAD
 if( CF.toUpperCase() == "F" ){
 let cent = (temp-32)/(9/5);
 console.log(`${temp}F -> ${cent}C`);
@@ -12,6 +13,9 @@ console.log(`${temp}C -> ${fh}F`);
 console.log("Només es pot C ó F");
 =======
 if( CF.toUpperCase() == "C" ){
+=======
+if( CF.toUpperCase() == "B" ){
+>>>>>>> 58276ef (modificada una lletra)
 let cent = (temp-32)/(5/9);
 console.log(`${temp}F -> ${cent}C`);
 }else if (CF.toUpperCase() == "F"){
