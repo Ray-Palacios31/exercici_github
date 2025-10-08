@@ -9,6 +9,5 @@ let fh = (9/5) * temp + 32;
 console.log(`${temp}C -> ${fh}F`);
 }else {
 console.log("Només es pot C ó F");
-
 }
 }
