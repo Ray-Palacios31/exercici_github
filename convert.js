@@ -3,7 +3,11 @@ let CF = prompt("A què vols convertir C/F?");
 let temp = parseFloat(prompt("Temperatura:"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 if( CF.toUpperCase() == "F" ){
+=======
+if( CF.toUpperCase() == "C" ){
+>>>>>>> 47bd899 (fent canvis a l'arxiu per provar)
 let cent = (temp-32)/(9/5);
 console.log(`${temp}F -> ${cent}C`);
 }else if (CF.toUpperCase() == "C"){
